@@ -54,6 +54,15 @@
         margin: auto;
         margin-top: 20px;
     }
+    .second-members-section{
+        flex-wrap: wrap;
+    }
+    .second-section-right-block{
+        margin: auto;
+    }
+    .second-members-left-block{
+        margin: auto;
+    }
 }
 @media(max-width:1146px){
     .first-section-image{
@@ -104,6 +113,9 @@
 @media(max-width:1020px){
     .navigation{
         display: none;
+        width: auto;
+        height: auto;
+
     }
     .bar-div{
         display: block;
@@ -115,6 +127,18 @@
     }
     .logo-title{
         font-size: 22px;
+    }
+    .nav-ul{
+        flex-direction: column;
+    }
+    .nav-li{
+        margin-top: 15px;
+    }
+    .header{
+        height: auto;
+    }
+    .navigation.nav-active{
+        display: block;
     }
 }
 @media(max-width:998px){
@@ -185,6 +209,25 @@
     .members-text{
         text-align: center;
     }
+    .second-members-left-block img{
+        display: none;
+    }
+    .second-members-left-block h3{
+        text-align: center;
+    }
+    .second-members-left-block p{
+        text-align: center;
+    }
+    .second-section-text-container h3{
+        text-align: center;
+    }
+    .second-section-text-container p{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .second-section-members{
+        margin: 0 auto;
+    }
 }
 @media(max-width:760px){
     .section-first-title{
@@ -253,6 +296,29 @@
         margin: auto;
         margin-top: 5px;
     }
+    .second-members-left-block h3{
+        font-size: 33px;
+    }
+    .second-members-left-block p{
+        font-size: 14px;
+        width: 90%;
+    }
+    .second-section-text-container p{
+        width: 90%;
+    }
+    .second-section-members{
+        width: 95%;
+    }
+    .second-members-left-block p{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .members-right-block-container{
+        justify-content: start;
+    }
+    .second-section-members p{
+        margin-left: 40px;
+    }
 }
 @media(max-width:620px){
     .section-first-title{
@@ -293,6 +359,7 @@
     .members-right-block-container{
         justify-content: center;
     }
+    
 }
 @media(max-width:510px){
     .second-section-title{
