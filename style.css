@@ -18,6 +18,13 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.header-parent{
+    width:1270px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .logo-title{
     font-style: normal;
     font-weight: 500;

@@ -115,7 +115,12 @@
         display: none;
         width: auto;
         height: auto;
-
+    }
+    .header-parent{flex-direction: column;
+    }
+    .header{
+        height: auto;
+        align-items:inherit;
     }
     .bar-div{
         display: block;
@@ -128,17 +133,18 @@
     .logo-title{
         font-size: 22px;
     }
+    .navigation.nav-active{
+        display: block;
+    }
     .nav-ul{
         flex-direction: column;
     }
     .nav-li{
         margin-top: 15px;
     }
-    .header{
-        height: auto;
-    }
-    .navigation.nav-active{
-        display: block;
+    .bar{
+        vertical-align:top;
+        margin-top: 10px;
     }
 }
 @media(max-width:998px){
