@@ -44,6 +44,16 @@
     .section-three-div{
         margin-top: 40px;
     }
+    .members-section{
+        flex-wrap: wrap;
+    }
+    .members-left-block{
+        margin: 0 auto;
+    }
+    .members-right-block{
+        margin: auto;
+        margin-top: 20px;
+    }
 }
 @media(max-width:1146px){
     .first-section-image{
@@ -166,6 +176,15 @@
         font-size: 16px;
         line-height: 22px;
     }
+    .members-icon{
+        display: none;
+    }
+    .members-title{
+        text-align: center;
+    }
+    .members-text{
+        text-align: center;
+    }
 }
 @media(max-width:760px){
     .section-first-title{
@@ -194,6 +213,17 @@
         height: 420px;
     }
 }
+@media(max-width: 670px){
+    .members-icon{
+        display: none;
+    }
+    .members-title{
+        text-align: center;
+    }
+    .members-text{
+        text-align: center;
+    }
+}
 @media(max-width:644px){
     .section-first-title{
         font-size: 43px;
@@ -214,6 +244,15 @@
         font-size: 14px;
         line-height: 22px;
     }
+    .members-title{
+        font-size: 33px;
+    }
+    .members-text{
+        font-size: 14px;
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+    }
 }
 @media(max-width:620px){
     .section-first-title{
@@ -232,6 +271,27 @@
     .first-section-button{
         width: 210px;
         height: 58px;
+    }
+}
+@media(max-width:600px){
+    .members-right-block{
+        width: 400px;
+        height: auto;
+    }
+    .member-image{
+        width: 50px;
+        height: 50px;
+    }
+    .member-info h4 {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .member-info p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .members-right-block-container{
+        justify-content: center;
     }
 }
 @media(max-width:510px){
@@ -312,6 +372,13 @@
     }
     .first-section-image{
         width: 100%;
+    }
+    .members-right-block{
+        width: 90%;
+        height: auto;
+    }
+    .members-right-block-title{
+        margin-left: 60px;
     }
 }
 @media(max-width:390px){
